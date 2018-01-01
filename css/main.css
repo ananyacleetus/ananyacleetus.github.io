@@ -65,6 +65,7 @@ svg {
 
 
 
+
 /*cubic-bezier(.67,.08,.26,1.24);*/
 
 .text-copy:nth-child(1) {
@@ -104,8 +105,8 @@ svg {
     }
 }
 
-a:-webkit-any-link{
-text-decoration: none;
+a:-webkit-any-link {
+    text-decoration: none;
 }
 
 
@@ -154,8 +155,14 @@ text-decoration: none;
     font-size: larger;
 }
 
-#uni:hover, #micro:hover, #cs:hover, #rp:hover, #arm:hover, #day:hover, #memes:hover{
-    color:black;
+#uni:hover,
+#micro:hover,
+#cs:hover,
+#rp:hover,
+#arm:hover,
+#day:hover,
+#memes:hover {
+    color: black;
 }
 
 #wrapper {
