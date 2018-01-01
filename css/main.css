@@ -2,21 +2,25 @@ html, body {
     height: 100%;
 }
 body {
-    /*background: #082330;*/
-    background: black;
-    background-size: .12em 100%;
     font: 16em/1 Arial;
+        background: black;
+
 }
 
 #header {
     background: black;
+    background-size: .12em 100%;
+
 
 }
 
 #about {
-    background: red;
+    background: white;
+        background-size: .12em 100%;
+
 
 }
+
 .text--line {
     font-size: .5em;
 }
@@ -42,7 +46,7 @@ svg {
     fill: none;
     stroke: white;
     stroke-dasharray: 7% 28%;
-    stroke-width: 4px;
+    stroke-width: 3px;
     animation: stroke-offset 7s ease-in-out 1;
     text-shadow: 2px 2px #000000;
 }
@@ -78,4 +82,9 @@ svg {
         stroke-dashoffset: 35%;
         stroke-dasharray: 0 87.5%;
     }
+}
+
+#copyright {
+    color:white;
+    font-size: 30px;
 }
