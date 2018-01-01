@@ -24,11 +24,11 @@ body {
 }
 
 #headline {
-    font-size: 120px;
+    font-size: .25em;
 }
  
  #p1 {
-    font-size: 80px;
+    font-size: .125em;
  }
 
 .text--line {
