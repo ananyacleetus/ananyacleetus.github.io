@@ -1,11 +1,229 @@
-#video_background { 
-	position: absolute; 
-	bottom: px; 
-	right: 0px; 
-	min-width: 100%; 
-	min-height: 100%; 
-	width: auto; 
-	height: auto; 
-	z-index: -1000; 
-	overflow: hidden; 
+html,
+body {}
+
+body {
+    font: 16em/1 Arial;
+    background: black;
+}
+
+#header {
+    background: black;
+    background-size: .12em 100%;
+    margin-bottom: -200px;
+}
+
+#about {
+    background: white;
+    background-size: .12em 100%;
+    font-family: Roboto Mono;
+}
+
+#headline {
+    font-size: .4em;
+    margin-left: 50px;
+}
+
+#p1 {
+    font-size: .18em;
+    display: block;
+    -webkit-margin-before: 1em;
+    line-height: 1.75em;
+    margin-left: 50px;
+}
+
+.text--line {
+    font-size: .5em;
+}
+
+svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.element {
+    font-size: 20px;
+}
+
+#tagline {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 2cm;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 3px;
+    animation: stroke-offset 7s ease-in-out 1;
+    text-shadow: 2px 2px #000000;
+}
+
+
+
+/*cubic-bezier(.67,.08,.26,1.24);*/
+
+.text-copy:nth-child(1) {
+    stroke: #8326a0;
+    stroke-dashoffset: 7%;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #D61C59;
+    stroke-dashoffset: 14%;
+    T text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #E7D84B;
+    stroke-dashoffset: 21%;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #EFEAC5;
+    stroke-dashoffset: 28%;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(5) {
+    stroke: #1B8798;
+    stroke-dashoffset: 35%;
+    text-shadow: 2px 2px #000000;
+}
+
+@keyframes stroke-offset {
+    50% {
+        stroke-dashoffset: 35%;
+        stroke-dasharray: 0 87.5%;
+    }
+}
+
+a:-webkit-any-link{
+text-decoration: none;
+}
+
+
+#uni {
+    color: #8326a0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#micro {
+    color: #D61C59;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#cs {
+    color: #E7D84B;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#rp {
+    color: #1B8798;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#arm {
+    color: #8326a0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#day {
+    color: #D61C59;
+
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+#memes {
+    color: #E7D84B;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#uni:hover, #micro:hover, #cs:hover, #rp:hover, #arm:hover, #day:hover, #memes:hover{
+    color:black;
+}
+
+#wrapper {
+    display: table;
+    table-layout: fixed;
+
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#wrapper div {
+    display: table-cell;
+    height: 100px;
+}
+
+#twitter {
+    fill: black;
+}
+
+#twitter:hover {
+    fill: #1B8798;
+}
+
+#linkedin {
+    fill: black;
+}
+
+#linkedin:hover {
+    fill: #8326a0;
+}
+
+#resume {
+    fill: black;
+}
+
+#resume:hover {
+    fill: #D61C59;
+}
+
+#github {
+    fill: black;
+}
+
+#github:hover {
+    fill: #E7D84B;
+}
+
+#a1 {
+    color: #8326a0;
+}
+
+#a2 {
+    color: #E7D84B;
+}
+
+#a3 {
+    color: #D61C59;
+}
+
+#n1 {
+    color: #D61C59;
+}
+
+#n2 {
+    color: #1B8798;
+}
+
+#y1 {
+    color: #8326a0;
 }
