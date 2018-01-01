@@ -1,5 +1,5 @@
 html, body {
-    height: 100%;
+
 }
 body {
     font: 16em/1 Arial;
@@ -10,16 +10,26 @@ body {
 #header {
     background: black;
     background-size: .12em 100%;
+    margin-bottom: -200px;
 
 
 }
 
 #about {
-    background: white;
+        background: white;
         background-size: .12em 100%;
-
+        font-family: Roboto Mono;
+        
 
 }
+
+#headline {
+    font-size: 120px;
+}
+ 
+ #p1 {
+    font-size: 80px;
+ }
 
 .text--line {
     font-size: .5em;
@@ -39,7 +49,7 @@ svg {
     font-size: 40px;
     text-align: center;
     font-family: Arial;
-    padding-bottom: 5cm;
+    padding-bottom: 2cm;
     text-shadow: 2px 2px #000000;
 }
 .text-copy {
