@@ -151,8 +151,22 @@ a:-webkit-any-link {
 
 
 
-#memes {
+#anemone {
     color: #E7D84B;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#magikstra {
+    color: #1B8798;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#memes {
+    color: #8326a0;
     font-weight: bolder;
     font-size: larger;
 }
@@ -163,7 +177,9 @@ a:-webkit-any-link {
 #rp:hover,
 #arm:hover,
 #day:hover,
-#memes:hover {
+#memes:hover,
+#anemone:hover,
+#magikstra:hover {
     color: black;
 }
 
