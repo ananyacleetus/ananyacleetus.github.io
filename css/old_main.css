@@ -1,0 +1,459 @@
+html,
+body {}
+
+body {
+    font: 16em/1 Arial;
+    background: black;
+}
+
+#header {
+    background: black;
+    background-size: .12em 100%;
+    margin-bottom: -200px;
+}
+
+#about {
+    background: white;
+    background-size: .12em 100%;
+    font-family: Roboto Mono;
+}
+
+#headline {
+    font-size: .4em;
+    margin-left: 50px;
+}
+
+#p1 {
+    font-size: .12em;
+    display: block;
+    -webkit-margin-before: 1em;
+    line-height: 1.75em;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-bottom: -50px;
+}
+
+.text--line {
+    font-size: .5em;
+}
+
+svg {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.element {
+    font-size: 20px;
+}
+
+#tagline {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    font-family: Arial;
+    padding-bottom: 2cm;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 7% 28%;
+    stroke-width: 3px;
+    animation: stroke-offset 7s ease-in-out 1;
+    text-shadow: 2px 2px #000000;
+}
+
+
+
+
+/*cubic-bezier(.67,.08,.26,1.24);*/
+
+.text-copy:nth-child(1) {
+    stroke: #8326a0;
+    stroke-dashoffset: 7%;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(2) {
+    stroke: #D61C59;
+    stroke-dashoffset: 14%;
+    T text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(3) {
+    stroke: #E7D84B;
+    stroke-dashoffset: 21%;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(4) {
+    stroke: #EFEAC5;
+    stroke-dashoffset: 28%;
+    text-shadow: 2px 2px #000000;
+}
+
+.text-copy:nth-child(5) {
+    stroke: #1B8798;
+    stroke-dashoffset: 35%;
+    text-shadow: 2px 2px #000000;
+}
+
+@keyframes stroke-offset {
+    50% {
+        stroke-dashoffset: 35%;
+        stroke-dasharray: 0 87.5%;
+    }
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+}
+
+
+#uni {
+    color: #8326a0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#micro {
+    color: #D61C59;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#cs {
+    color: #E7D84B;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#rp {
+    color: #1B8798;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#arm {
+    color: #8326a0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#day {
+    color: #D61C59;
+
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+#anemone {
+    color: #E7D84B;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#magikstra {
+    color: #1B8798;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+#memes {
+    color: #8326a0;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+#uni:hover,
+#micro:hover,
+#cs:hover,
+#rp:hover,
+#arm:hover,
+#day:hover,
+#memes:hover,
+#anemone:hover,
+#magikstra:hover {
+    color: black;
+}
+
+#wrapper {
+    display: table;
+    table-layout: fixed;
+
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+
+#wrapper div {
+    display: table-cell;
+    height: 100px;
+}
+
+#twitter {
+    fill: black;
+}
+
+#twitter:hover {
+    fill: #1B8798;
+}
+
+#linkedin {
+    fill: black;
+}
+
+#linkedin:hover {
+    fill: #8326a0;
+}
+
+#recognition {
+    fill: black;
+}
+
+#recognition:hover {
+    fill: #D61C59;
+}
+
+#github {
+    fill: black;
+}
+
+#github:hover {
+    fill: #E7D84B;
+}
+
+#a1 {
+    color: #8326a0;
+}
+
+#a2 {
+    color: #E7D84B;
+}
+
+#a3 {
+    color: #D61C59;
+}
+
+#n1 {
+    color: #D61C59;
+}
+
+#n2 {
+    color: #1B8798;
+}
+
+#y1 {
+    color: #8326a0;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+}
+
+.card {
+  width: 450px;
+  height: 250px;
+  background-color: #fff;
+  background: linear-gradient(#f8f8f8, #fff);
+  box-shadow: 0 8px 16px -8px rgba(0,0,0,0.4);
+  border-radius: 6px;
+  overflow: hidden;
+  position: relative;
+  margin: 1.5rem;
+}
+
+.card h1 {
+  text-align: center;
+}
+
+.card .additional {
+  position: absolute;
+  width: 150px;
+  height: 100%;
+  background: linear-gradient(#dE685E, #EE786E);
+  transition: width 0.4s;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.card.green .additional {
+  background: linear-gradient(#92bCa6, #A2CCB6);
+}
+
+
+.card:hover .additional {
+  width: 100%;
+  border-radius: 0 5px 5px 0;
+}
+
+.card .additional .user-card {
+  width: 150px;
+  height: 100%;
+  position: relative;
+  float: left;
+}
+
+.card .additional .user-card::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 10%;
+  right: -2px;
+  height: 80%;
+  border-left: 2px solid rgba(0,0,0,0.025);*/
+}
+
+.card .additional .user-card .level,
+.card .additional .user-card .points {
+  top: 15%;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.75em;
+  font-weight: bold;
+  background: rgba(0,0,0,0.15);
+  padding: 0.125rem 0.75rem;
+  border-radius: 100px;
+  white-space: nowrap;
+}
+
+.card .additional .user-card .points {
+  top: 85%;
+}
+
+.card .additional .user-card svg {
+  top: 50%;
+}
+
+.card .additional .more-info {
+  width: 300px;
+  float: left;
+  position: absolute;
+  left: 150px;
+  height: 100%;
+}
+
+.card .additional .more-info h1 {
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.card.green .additional .more-info h1 {
+  color: #224C36;
+}
+
+.card .additional .coords {
+  margin: 0 1rem;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.card.green .additional .coords {
+  color: #325C46;
+}
+
+.card .additional .coords span + span {
+  float: right;
+}
+
+.card .additional .stats {
+  font-size: 2rem;
+  display: flex;
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  top: auto;
+  color: #fff;
+}
+
+.card.green .additional .stats {
+  color: #325C46;
+}
+
+.card .additional .stats > div {
+  flex: 1;
+  text-align: center;
+}
+
+.card .additional .stats i {
+  display: block;
+}
+
+.card .additional .stats div.title {
+  font-size: 0.75rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card .additional .stats div.value {
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.card .additional .stats div.value.infinity {
+  font-size: 2.5rem;
+}
+
+.card .general {
+  width: 300px;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-top: 0;
+}
+
+.card .general .more {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  font-size: 0.9em;
+}
+
+.row {
+  display: flex;
+  align: center;
+
+}
+
+.column {
+  float: left;
+  width: 50%;
+  display:inline-block;
+}
+
+/* .row .column:first-child {
+  align-self: center;
+} */
+/*
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */ */
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}

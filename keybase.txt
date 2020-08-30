@@ -19,11 +19,11 @@ To claim this, I am signing this object:
             "uid": "99a4c6816d00001ba84a4dce90dafa00",
             "username": "ananyacleetus"
         },
-        "service": {
+        "about": {
             "hostname": "ananyacleetus.com",
             "protocol": "http:"
         },
-        "type": "web_service_binding",
+        "type": "web_about_binding",
         "version": 1
     },
     "ctime": 1413070946,
