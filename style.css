@@ -305,7 +305,8 @@ a.button:hover {
 }
 
 .my-info-title {
-    font-size: 12px;
+    font-size: 15px;
+    font-weight: bold;
     line-height: 100%;
     color: #2C224A;
     letter-spacing: 5px;
@@ -321,7 +322,7 @@ img.my-info-signature {
     padding-bottom: 30px;
 }
 
-.big-num {
+.big-let {
     position: fixed;
     width: 380px;
     left: 0;
@@ -330,10 +331,10 @@ img.my-info-signature {
     z-index: 1;
 }
 
-.current-big-num {
-    font-size: 160px;
-    -webkit-text-stroke: 3px #c6646b;
-    color: transparent;
+.current-big-let {
+    font-size: 120px;
+    -webkit-text-stroke: 1px #ffffff;
+    color: #c6646b;
     font-weight: 800;
     line-height: 100%;
     letter-spacing: -4px;
@@ -1687,11 +1688,11 @@ p.jams-submit-holder {
         padding-left: 55px;
     }
 
-    .big-num {
+    .big-let {
         width: 320px;
     }
 
-    .current-big-num {
+    .current-big-let {
         font-size: 130px;
     }
 
@@ -1805,7 +1806,7 @@ p.jams-submit-holder {
 
     .top-pagination,
     .my-info-wrapper,
-    .big-num {
+    .big-let {
         display: none;
     }
 
@@ -1993,7 +1994,7 @@ p.jams-submit-holder {
 
 @media screen and (max-height: 880px) {
 
-    .big-num {
+    .big-let {
         display: none;
     }
 
