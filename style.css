@@ -1601,10 +1601,26 @@ p.jams-submit-holder {
     opacity: 1;
 }
 
+/* ----- Portfolio Section Styles and Settings ----- */
+#portfolio .row .col-2.grid-item{
+	align-items:center;
+	display:flex;
+}
+
+
 
 /* ===================================
     12. Responsive CSS
 ====================================== */
+
+@media screen and (max-width: 1750px) {
+
+	/* ----- About Section Responsiveness ----- */
+	#about .button-group-wrapper > a{
+		padding:12px 25px;
+	}
+
+}
 
 @media screen and (max-width: 1599px) {
 
@@ -1652,7 +1668,6 @@ p.jams-submit-holder {
         padding-top: 110px;
     }
 
-
     .grid {
         width: calc(100% + 4vw);
         margin-left: -2vw;
@@ -1665,6 +1680,19 @@ p.jams-submit-holder {
     .category-filter {
         right: -1vw;
     }
+
+
+	/* ----- About Section Responsiveness ----- */
+	#about .button-group-wrapper > a{
+		padding:12px 36px;
+	}
+
+	/* ----- Speaking Section Responsiveness ----- */
+	#speaking .row .sp-grid-item p{
+		margin-bottom:50px;
+		line-height:1.8;
+	}
+
 
 }
 
@@ -1696,6 +1724,14 @@ p.jams-submit-holder {
     .skill-percent {
         margin-top: 11px;
     }
+
+
+	/* ----- Press Section Responsiveness ----- */
+	#press .press-list li{
+		margin-bottom:20px;
+		padding-left:.5em;
+		line-height:10%;
+	}
 
 }
 
@@ -1750,14 +1786,14 @@ p.jams-submit-holder {
         margin-top: -60px;
     }
 
-}
 
+}
 
 @media screen and (max-width: 1300px) {
 
- .one-half {
-        width: 100%;
-        margin-bottom: 60px;
+ 	.one-half {
+	 	width: 96%;
+        margin-bottom: 50px;
         margin-right: 0;
     }
 
@@ -1773,8 +1809,31 @@ p.jams-submit-holder {
         margin-bottom: 0;
     }
 
+	.content-left{
+		width:90px;
+	}
+
+	/* ----- About Section Styles ----- */
+	#about .row .one-half.last{
+		padding-left:40px;
+	}
+
+	/* ----- About Section Styles ----- */
+	#jams .row .one-half.last{
+		padding-left:40px;
+	}
+
+
 }
 
+@media screen and (max-width: 1200px) {
+
+	/* ----- About Section Styles ----- */
+	#about .button-group-wrapper > a{
+		padding: 12px 25px;
+	}
+
+}
 
 @media screen and (max-width: 1020px) {
 
@@ -1797,6 +1856,8 @@ p.jams-submit-holder {
     }
 
     .content-right {
+		margin-bottom:0;
+		margin-top:55px;
         margin-left: 0;
         width: 100%;
     }
@@ -1849,6 +1910,41 @@ p.jams-submit-holder {
         margin-bottom: 30px;
     }
 
+	/* ----- Header Section Styles ----- */
+	.social-links a {
+		font-size: 16px;
+		letter-spacing: 3px;
+		margin-right: 20px;
+	}
+
+	h1.entry-title {
+		font-size: 80px;
+		line-height: 80px;
+	}
+
+	/* ----- About Section Styles ----- */
+	#about .button-group-wrapper > a{
+		margin-bottom:15px;
+	}
+
+	/* ----- Portfolio Section Styles ----- */
+	#portfolio .row .col-1{
+		width:40% !important
+	}
+
+	#portfolio .row .col-2{
+		width:60% !important
+	}
+
+	#portfolio-grid{
+		height:inherit !important;
+	}
+
+	.section-info{
+		font-size: 18px;
+		line-height: 28px;
+	}
+
 }
 
 @media screen and (max-height: 880px) {
@@ -1856,6 +1952,43 @@ p.jams-submit-holder {
     .big-num {
         display: none;
     }
+
+}
+
+@media screen and (max-width: 880px) {
+
+    /* ----- Header Section Styles ----- */
+	.site-des{
+		font-size: 24px;
+	}
+
+	h1.entry-title{
+		font-size: 72px;
+		line-height: 72px;
+	}
+
+	.site-info{
+		margin-top: 15px;
+		font-size: 17px;
+	}
+
+	/* ----- Portfolio Section Styles ----- */
+	#portfolio .row .col-1{
+		width:30% !important
+	}
+
+	#portfolio .row .col-2{
+		width:70% !important
+	}
+
+	/* ----- Press Section Styles ----- */
+	#press .press-list li{
+		margin-bottom:15px;
+	}
+
+	.press-list li a{
+		font-size: 14px;
+	}
 
 }
 
@@ -1877,10 +2010,6 @@ p.jams-submit-holder {
     .home-left-part {
         flex: 0 0 100%;
         margin: 0;
-    }
-
-    .home-right-part {
-        display: none;
     }
 
     h1.entry-title {
@@ -1942,7 +2071,7 @@ p.jams-submit-holder {
     }
 
     ul.timeline-holder {
-        padding-left: 70px;
+        padding-left: 20px;
     }
 
     .timeline-event-date {
@@ -1982,6 +2111,93 @@ p.jams-submit-holder {
         font-size: 13px;
         padding: 15px;
     }
+
+	.row{
+		display:block;
+	}
+
+	/* ----- Header Section Responsiveness ----- */
+	.content-right-wrapper > div:first-of-type .section-wrapper{
+		padding-top:50px;
+		display:block;
+	}
+
+	.home-right-part{
+		background:url(media/images/collage_anan.jpg) no-repeat bottom center;
+		background-size:cover;
+		min-height: 500px;
+		margin-top:50px;
+		display: block;
+	}
+
+	/* ----- About Section Responsiveness ----- */
+	#about .row .one-half{
+		min-height:400px;
+		float:none;
+		width:100%;
+	}
+
+	#about .row .one-half .brainframe{
+		min-height:400px;
+		width:100%;
+	}
+
+	#about .row .one-half.last{
+		padding-left: 0;
+	}
+
+	h2.section-title{
+		padding-bottom: 20px;
+	}
+
+	/* ----- Speaking Section Responsiveness ----- */
+	#speaking .row .sp-grid-item.p-one-half{
+		border:1px solid transparent;
+		margin-bottom:30px;
+		width:100%;
+		float:none;
+	}
+
+	#speaking .row .sp-grid-item p{
+		margin-bottom: 20px;
+	}
+
+	.videobox iframe, .videobox object, .videobox embed{
+		width: 100%;
+		height: 350px;
+	}
+
+	/* ----- Press Section Responsiveness ----- */
+	#press{
+		padding-top:0;
+	}
+
+	#press .row .press-grid-item.p-one-half{
+		border: none;
+		float:none;
+		width:100%;
+	}
+
+	#press .row .press-list ul{
+		margin-top:0 !important;
+	}
+
+	#press .row .press-list ul li{
+		line-height:20%;
+	}
+
+	/* ----- Jams Section Responsiveness ----- */
+	#jams .row .one-half{
+		margin-bottom:0;
+	}
+
+	#jams .row .one-half.last{
+		padding-left: 0;
+	}
+
+	#jams .row .one-half.last iframe{
+		width:100%;
+	}
 
 }
 
@@ -2024,6 +2240,126 @@ p.jams-submit-holder {
 
 }
 
+@media screen and (max-width: 575px) {
+
+	/* ----- Header Section Responsiveness ----- */
+	.home-right-part{
+		min-height: 380px;
+	}
+
+	.site-des{
+		font-size: 18px;
+	}
+
+	h1.entry-title{
+		font-size: 40px;
+	}
+
+	.site-info{
+		margin-top: 12px;
+		margin-bottom: 0;
+		line-height: 1.5;
+		font-size: 16px;
+	}
+
+	.social-links{
+		margin-top: 30px;
+		margin-bottom: 0;
+	}
+
+	.social-links a{
+		letter-spacing: 2px;
+		font-size: 14px;
+	}
+
+	/* ----- About Section Responsiveness ----- */
+	#about .row .one-half{
+		min-height:300px;
+	}
+
+	#about .row .one-half .brainframe{
+		min-height:320px;
+	}
+
+	.section-info{
+		font-size: 16px;
+		line-height: 1.6;
+	}
+
+	#about .row .one-half{
+		margin-bottom:20px;
+		line-height:1.6;
+	}
+
+	#about .button-group-wrapper > a{
+		padding:10px 16px;
+		font-size:14px;
+	}
+
+	/* ----- Recognition Section Responsiveness ----- */
+	#recognition{
+		padding-top:50px;
+	}
+
+	#recognition h2{
+		padding-bottom:30px;
+	}
+
+	span.timeline-circle:before{
+		width: 28px;
+		height: 28px;
+	}
+
+	li.timeline-event span.timeline-circle:after{
+		width: 14px;
+		height: 14px;
+		left: -9px;
+		top: 10px;
+	}
+
+	li.timeline-event:before{
+		width: 2px;
+		left: -34px;
+		top: 42px;
+	}
+
+	.timeline-event-content{
+		margin-left: 0;
+		font-size:14px;
+	}
+
+	.award-source {
+		font-size: 15px;
+	}
+
+	/* ----- Speaking Section Responsiveness ----- */
+	.videobox iframe, .videobox object, .videobox embed{
+		height: 250px;
+		width: 100%;
+	}
+
+	/* ----- Press Section Responsiveness ----- */
+	#press{
+		padding-top:30px;
+	}
+
+	#press .press-list li{
+		margin-bottom:10px;
+	}
+
+	/* ----- Jams Section Responsiveness ----- */
+	#jams h2.section-title{
+		padding-bottom:0;
+	}
+
+	#jams .row .one-half p{
+		margin-bottom: 20px;
+		line-height:1.6;
+	}
+
+
+}
+
 @media screen and (max-width: 480px) {
 
     .button-group-wrapper > .button {
@@ -2032,11 +2368,50 @@ p.jams-submit-holder {
         margin-bottom: 20px;
     }
 
+	/* ----- Header Section Responsiveness ----- */
+	.home-right-part{
+		min-height: 320px;
+	}
 
-.brainframe {
-      border:none;
-      width:80%;
-      height:80%;
-    }
+	h1.entry-title{
+		font-size:38px;
+	}
+
+	/* ----- About Section Responsiveness ----- */
+	#about .row .one-half{
+		min-height:250px;
+	}
+
+	#about .row .one-half .brainframe{
+		min-height:260px;
+	}
+
+	#about .row > .one-half:nth-child(2){
+		border: 1px solid transparent;
+		margin-bottom:0;
+	}
+
+	#about .row .one-half .button-group-wrapper{
+		margin-top: 30px;
+	}
+
+	/* ----- Projects Section Responsiveness ----- */
+	#portfolio{
+		padding-top:50px;
+	}
+
+	#portfolio .grid-item img{
+		width:60%;
+	}
+
+	/* ----- Speaking Section Responsiveness ----- */
+	.videobox iframe, .videobox object, .videobox embed{
+		height: 200px;
+	}
+
+	/* ----- Press Section Responsiveness ----- */
+	#press .press-list li{
+		padding-left:40px;
+	}
 
 }

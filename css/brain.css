@@ -34,30 +34,31 @@ path {
   stroke-width: 1.5px;
   stroke: #fff1e6;
 }
+
 .container {
   display: flex;
   justify-content: center;
-  margin-left: -20%;
-  margin-right: 10%;
-  height: 120%;
-  width: 120%;
+  width: 100%;
 }
+
 .svg-whole {
   max-height: 425px;
 }
+
 .svg-container {
   padding: 25px;
   width: 30%;
   text-align: center;
   margin-top: 10px;
   margin-right: 0%;
+  flex:1;
 }
 .info-container {
   max-width: 375px;
   margin-top: 50px;
   margin-bottom: 25px;
   margin-left: 0%;
-  width: 30%;
+  width: 60%;
 }
 .agreeableness,
 .human-nature,
@@ -187,14 +188,14 @@ path {
     margin-left: 0%;
     width: 30%;
   } */
+  
+	
 #title {
     font-size: 22px;
-    margin-bottom: 20px;
     font-weight: bold;
 
   }
 #region {
-    margin-top: -26%;
     font-size: 14px;
     font-weight: 200;
   }
@@ -206,6 +207,16 @@ path {
     margin-top: 20px;
     margin-bottom: 25px;
     margin-left: 0%;
-    width: 55%;
+    width: 50%;
   }
+  
+  	.svg-container{
+		margin:0 auto;
+		width:50%;
+	}
+	
+	.category {
+		padding: 16px;
+	}
+	
 }
