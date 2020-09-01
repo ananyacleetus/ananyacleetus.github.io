@@ -1,11 +1,16 @@
-* {
+.html {
+  background-color: #f9f0ff !important;
+}
+
+  * {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: #5d5d5d;
   letter-spacing: 1px;
+  /* background-color: #f9f0ff; */
 }
 body {
-  /*  background-color: #fff1e6; */
+  /* background-color: #f9f0ff; */
   width: 100%;
   overflow: hidden;
 }
@@ -39,6 +44,10 @@ path {
   display: flex;
   justify-content: center;
   width: 100%;
+}
+
+.braincontain {
+  background-color: #f9f0ff !important;
 }
 
 .svg-whole {
@@ -188,8 +197,8 @@ path {
     margin-left: 0%;
     width: 30%;
   } */
-  
-	
+
+
 #title {
     font-size: 22px;
     font-weight: bold;
@@ -209,14 +218,14 @@ path {
     margin-left: 0%;
     width: 50%;
   }
-  
+
   	.svg-container{
 		margin:0 auto;
 		width:50%;
 	}
-	
+
 	.category {
 		padding: 16px;
 	}
-	
+
 }
