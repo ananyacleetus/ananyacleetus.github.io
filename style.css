@@ -320,6 +320,7 @@ a.button:hover {
     line-height: 100%;
     color: #2C224A;
     letter-spacing: 5px;
+    padding-bottom: 2px;
 }
 
 .my-info-content {
@@ -342,7 +343,7 @@ img.my-info-signature {
 }
 
 .current-big-let {
-  font-size: 120px;
+  font-size: 110px;
     -webkit-text-stroke: 1px #ffffff;
     color: #c6646b;
     font-weight: 800;
