@@ -55,13 +55,13 @@ body {
 
 body a {
     text-decoration: none;
-    color: #000000;
+    color: #a88590;
     transition: color .3s linear;
 }
 
-body a:hover {
+/* body a:hover {
     color: #acacac;
-}
+} */
 
 body img {
     max-width: 120%;
@@ -854,8 +854,10 @@ h1.entry-title {
   /*  border: solid; */
 }
 
-/* .new-one-third {
-    width: calc(100% / 3);
+.project-info {
+  font-size: 15px;
+  line-height: normal;
+  padding-top: 8px;
 }
 
 .new-two-third {
