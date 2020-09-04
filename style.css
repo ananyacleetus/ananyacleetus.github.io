@@ -1376,7 +1376,7 @@ p.skill-circle-text {
 
 .press-grid-item.p-one-half {
     width: calc(100% / 2);
-    height: 1000px;
+    height: 1800px;
 }
 
 /* .press-list li a{
@@ -1480,28 +1480,31 @@ transition: color .3s linear;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-.card-source {
-  font-size: 20px;
-  color: #F37B83;
-}
-
-.card:hover a, .card:hover h2{
- color: #9f86c0;
-}
-
-.card-article {
-  color: #2C224A;
-}
-
 a {
   text-decoration: none;
   color:inherit;
 
 }
+
+.card-source a {
+  font-size: 20px;
+  color: #F37B83 !important;
+}
+
+.card:hover a, .card:hover h2{
+ color: #9f86c0 !important;
+}
+
+.card-article {
+  color: #2C224A !important;
+}
+
+
 .card {
   top: 30px !important;
   position: -webkit-sticky;
   position: sticky;
+  height: 125px;
   border: 1px solid #ccc !important;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) !important;
   background-color: #FDF7FF;
@@ -1522,35 +1525,54 @@ a {
 }
 
 .card:nth-child(1n) {
-  top: 20px !important;
+  top: 20px;
 }
 
 .card:nth-child(2n) {
-  top: 40px !important;;
+  top: 40px;
 }
 
 .card:nth-child(3n) {
-  top: 60px !important;;
+  top: 60px;
 }
 
 .card:nth-child(4n) {
-  top: 80px !important;;
+  top: 80px;
 }
 
 .card:nth-child(5n) {
-  top: 100px !important;;
+  top: 100px;
 }
 
 .card:nth-child(6n) {
-  top: 120px !important;;
+  top: 120px;
 }
 
 .card:nth-child(7n) {
-  top: 140px !important;;
+  top: 140px;
 }
 
 .card:nth-child(8n) {
-  top: 160px !important;;
+  top: 160px;
+}
+
+.card:nth-child(9n) {
+  top: 180px;
+}
+
+.card:nth-child(10n) {
+  top: 200px;
+}
+
+.card:nth-child(11n) {
+  top: 220px;
+}
+
+.card:nth-child(12n) {
+  top: 240px;
+}
+.card:nth-child(13n) {
+  top: 260px;
 }
 
 /* ===================================
@@ -2324,6 +2346,7 @@ p.jams-submit-holder {
 	/* ----- Press Section Responsiveness ----- */
 	#press{
 		padding-top:0;
+    padding-bottom: -75px;
 	}
 
 	#press .row .press-grid-item.p-one-half{
@@ -2523,6 +2546,7 @@ p.jams-submit-holder {
 		margin-bottom: 20px;
 		line-height:1.6;
 	}
+
 
 
 }
