@@ -1,0 +1,97 @@
+html,
+body {
+  margin: 0;
+}
+
+body {
+  /* background: -webkit-gradient(linear, left top, left bottom, from(#e8e8e8), to(#e0e0e0)); */
+  /* background: linear-gradient(#e8e8e8, #e0e0e0); */
+  background: #faefff;
+  /* background: #F37B83; */
+}
+
+.card-collection {
+  margin-top: 100px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  max-width: 700px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.card-source {
+  font-size: 20px;
+  color: #F37B83;
+    /* color: #9f86c0; */
+}
+
+.card:hover a, .card:hover h2{
+ color: #9f86c0;
+}
+
+.card-article {
+  color: #2C224A;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+
+}
+.card {
+  top: 30px;
+  position: -webkit-sticky;
+  position: sticky;
+  border: 1px solid #ccc;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #FDF7FF;
+  /* background-color: #2C224A; /*dark purple*/ */
+  /* background: #9f86c0; */  /*medium purple*/
+  /* background: #faefff; */  /*whiteish light purple*/
+  color: #333;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.card h2 {
+  padding: 0;
+}
+.card span {
+  display: block;
+  font-size: 14px;
+  color: #0c4eb9;
+}
+
+.card:nth-child(1n) {
+  top: 20px;
+}
+
+.card:nth-child(2n) {
+  top: 40px;
+}
+
+.card:nth-child(3n) {
+  top: 60px;
+}
+
+.card:nth-child(4n) {
+  top: 80px;
+}
+
+.card:nth-child(5n) {
+  top: 100px;
+}
+
+.card:nth-child(6n) {
+  top: 120px;
+}
+
+.card:nth-child(7n) {
+  top: 140px;
+}
+
+.card:nth-child(8n) {
+  top: 160px;
+}

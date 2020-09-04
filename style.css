@@ -73,9 +73,15 @@ body img {
 
 .brainframe {
   border:none;
-  width:100%;
+  width:70%;
   height:100%;
 }
+
+.cardframe {
+      border:none;
+      width:100%;
+      height:100%;
+  }
 
 .doc-loader {
     position: fixed;
@@ -109,6 +115,11 @@ p {
     line-height: 35px;
 }
 
+.section-info {
+    font-size: 20px;
+    line-height: 35px;
+}
+
 a.button {
     display: inline-block;
     color: #f37b83;
@@ -131,11 +142,6 @@ a.button:hover {
     color: white;
     background-color: #f37b83;
 }
-
-/* iframe {
-  background-color: #f9f0ff;
-
-} */
 
 /* ===================================
     3. Left Part Content (Sidebar) CSS
@@ -280,7 +286,7 @@ a.button:hover {
 }
 
 .pagination-div {
-    position: relative;
+      position: relative;
     width: 100px;
     height: 30px;
     margin-right: 8px;
@@ -310,7 +316,7 @@ a.button:hover {
 
 .my-info-title {
     font-size: 15px;
-    font-weight: bold;
+     font-weight: bold;
     line-height: 100%;
     color: #2C224A;
     letter-spacing: 5px;
@@ -336,7 +342,7 @@ img.my-info-signature {
 }
 
 .current-big-let {
-    font-size: 120px;
+  font-size: 120px;
     -webkit-text-stroke: 1px #ffffff;
     color: #c6646b;
     font-weight: 800;
@@ -587,6 +593,10 @@ h1.entry-title {
     color: #f37b83;
 }
 
+.fake-entry-title {
+  line-height: 94px;
+}
+
 .site-info {
     margin-top: 25px;
     font-size: 18px;
@@ -655,6 +665,23 @@ h1.entry-title {
 
 .button-group-wrapper > a:last-of-type {
     margin-right: 0;
+}
+
+.personal-bio {
+  font-size: 18px;
+}
+
+.personal-link-1 {
+  font-size: 20px;
+  /* color: #F37B83; */
+  color: #9f86c0;
+  /* color: #2C224A; */
+  font-weight: bold;
+}
+
+.personal-link-1:hover {
+  color: #2C224A;
+  /* color: #F37B83; */
 }
 
 
@@ -1264,7 +1291,7 @@ p.skill-circle-text {
     margin-bottom: 0;
 }
 
-.skill-holder {
+/* .skill-holder {
     margin-bottom: 20px;
     position: relative;
 }
@@ -1309,33 +1336,37 @@ p.skill-circle-text {
 .skill-text span {
     font-size: 22px;
     line-height: 35px;
-}
+} */
 
 #press-grid {
   height:30% !important;
+  overflow: visible;
+  width: calc(100% + 20vw) !important;
+
 }
 
 .press-grid-item {
     float: left;
-    font-size: 100px;
-    line-height: 100%;
+    /* font-size: 100px;
+    line-height: 100%; */
     box-sizing:border-box;
     -moz-box-sizing:border-box;
     -webkit-box-sizing:border-box;
-    overflow: hidden;/* QUESTION:  */
-    border: 30px solid transparent;
-    width: 50%;
+    /* overflow: hidden; */
+    /* border: 30px solid transparent; */
+    width: 100%;
     transition: opacity .3s;
-    position: static !important;
+    padding: 20px;
+    /* position: static !important; */
 }
 
-.press-grid-item img {
+/* .press-grid-item img {
     display: block;
     width: 50%;
     height: auto;
     max-height: none;
     max-width: none;
-}
+} */
 
 
 .press-grid-sizer,
@@ -1345,9 +1376,10 @@ p.skill-circle-text {
 
 .press-grid-item.p-one-half {
     width: calc(100% / 2);
+    height: 1000px;
 }
 
-.press-list li a{
+/* .press-list li a{
 
 font-size: 15px;
 color: #a88590;
@@ -1357,13 +1389,13 @@ font-family: 'Poppins', sans-serif;
 
 .press-list li a:hover{
 
-color: #000000;
+color: #2C224A;
 
 }
 
 .press-list li a:hover span{
 
-color: #000000;
+color: #2C224A;
 transition: color .3s linear;
 
 
@@ -1374,14 +1406,12 @@ transition: color .3s linear;
   text-indent: -0.33em;
     padding-left: 1em;
     margin: 0 0 20px 0;
+
 }
 
 .press-list ul {
-  /* list-style-type: disc;
-  list-style-position: inside; */
   list-style: none;
   display: list-item;
-  /* font-size: 20px; */
 
 }
 
@@ -1392,13 +1422,12 @@ transition: color .3s linear;
   vertical-align: baseline;
 
 }
-
 .press-list ul li .press-source-fav{
   border-radius: 50%;
   border: 1px dashed black;
   padding: 5px 10px;
   margin-right: 10px;
-  background:#fff
+  background:#ffffff;
 }
 .press-list ul li .press-source-fav:before{
   content:'';
@@ -1409,13 +1438,6 @@ transition: color .3s linear;
   z-index:-1;
   height:100%
 }
-
-/* .press-list ul .favs :before{
-  content:"★";
-  font-size:18pt;
-  line-height: 20%;
-  vertical-align: baseline;
-} */
 
 .press-source {
   font-weight: bold;
@@ -1429,41 +1451,7 @@ transition: color .3s linear;
   vertical-align: baseline;
   font-weight: bold;
   color: #2C224A;
-  /* background-color: yellow; */
-
 }
-
-.fav {
-  /* background-color: yellow; */
-  /* caret-color: yellow;  */
-}
-
-/* li < .press-source-fav {
-  color: yellow;
-} */
-/*
-.press-source:hover {
-  color: #000000;
-} */
-
-
-/* .press-circle:after {
-    content: "";
-    position: absolute;
-    width: 19px;
-    height: 19px;
-    left: -8px;
-    top: 11px;
-    border-radius: 90%;
-    background-color: #f37b83;
-    opacity: 0;
-    transition: opacity .3s;
-}
-
-.press-circle:after {
-    opacity: 1;
-} */
-
 
 
 .press-circle {
@@ -1477,6 +1465,92 @@ transition: color .3s linear;
     z-index: 1;
     margin-bottom: -2px;
     transition: .3s;
+} */
+
+.card-collection {
+  margin: 0 !important;
+}
+
+.card-wrapper {
+  /* margin-top: 100px !important; */
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  max-width: 700px !important;
+  margin: 0 100px !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.card-source {
+  font-size: 20px;
+  color: #F37B83;
+}
+
+.card:hover a, .card:hover h2{
+ color: #9f86c0;
+}
+
+.card-article {
+  color: #2C224A;
+}
+
+a {
+  text-decoration: none;
+  color:inherit;
+
+}
+.card {
+  top: 30px !important;
+  position: -webkit-sticky;
+  position: sticky;
+  border: 1px solid #ccc !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) !important;
+  background-color: #FDF7FF;
+  color: #333;
+  padding: 10px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+}
+.card h2 {
+  padding: 0;
+}
+.card span {
+  display: block;
+  font-size: 14px;
+  color: #0c4eb9;
+}
+
+.card:nth-child(1n) {
+  top: 20px !important;
+}
+
+.card:nth-child(2n) {
+  top: 40px !important;;
+}
+
+.card:nth-child(3n) {
+  top: 60px !important;;
+}
+
+.card:nth-child(4n) {
+  top: 80px !important;;
+}
+
+.card:nth-child(5n) {
+  top: 100px !important;;
+}
+
+.card:nth-child(6n) {
+  top: 120px !important;;
+}
+
+.card:nth-child(7n) {
+  top: 140px !important;;
+}
+
+.card:nth-child(8n) {
+  top: 160px !important;;
 }
 
 /* ===================================
@@ -1495,7 +1569,13 @@ transition: color .3s linear;
 /* ===================================
     10. Speaking Section CSS
 ====================================== */
-
+.upcoming {
+  font-size: 20px;
+  padding-top: 10px;
+  margin-bottom: -30px;
+  color: #2C224A;
+  font-weight: bold;
+}
 
 .videobox iframe,
 .videobox object,
@@ -1882,6 +1962,11 @@ p.jams-submit-holder {
 		padding: 12px 25px;
 	}
 
+  .upcoming {
+    margin-bottom: 0;
+    margin-top: 10px;
+  }
+
 }
 
 @media screen and (max-width: 1020px) {
@@ -1971,6 +2056,10 @@ p.jams-submit-holder {
 		line-height: 80px;
 	}
 
+.fake-entry-title {
+    line-height: 80px;
+  }
+
 	/* ----- About Section Styles ----- */
 	#about .button-group-wrapper > a{
 		margin-bottom:15px;
@@ -1994,6 +2083,14 @@ p.jams-submit-holder {
 		line-height: 28px;
 	}
 
+  .personal-bio {
+    font-size: 18px;
+  }
+
+  .personal-link-1 {
+    font-size: 19px;
+}
+
 }
 
 @media screen and (max-height: 880px) {
@@ -2001,7 +2098,6 @@ p.jams-submit-holder {
     .big-let {
         display: none;
     }
-
 }
 
 @media screen and (max-width: 880px) {
@@ -2015,6 +2111,10 @@ p.jams-submit-holder {
 		font-size: 72px;
 		line-height: 72px;
 	}
+
+  .fake-entry-title {
+    line-height: 72px;
+  }
 
 	.site-info{
 		margin-top: 15px;
@@ -2038,6 +2138,7 @@ p.jams-submit-holder {
 	.press-list li a{
 		font-size: 14px;
 	}
+
 
 }
 
@@ -2063,6 +2164,10 @@ p.jams-submit-holder {
 
     h1.entry-title {
         font-size: 50px;
+        line-height: 100%;
+    }
+
+    .fake-entry-title {
         line-height: 100%;
     }
 
@@ -2225,6 +2330,8 @@ p.jams-submit-holder {
 		border: none;
 		float:none;
 		width:100%;
+    /* justify-self: center; */
+
 	}
 
 	#press .row .press-list ul{
@@ -2327,13 +2434,21 @@ p.jams-submit-holder {
 	}
 
 	#about .row .one-half .brainframe{
-		min-height:320px;
+		min-height:550px;
 	}
 
 	.section-info{
 		font-size: 16px;
 		line-height: 1.6;
 	}
+
+  .personal-bio {
+    font-size: 16px;
+  }
+
+  .personal-link-1 {
+    font-size: 17px;
+}
 
 	#about .row .one-half{
 		margin-bottom:20px;
@@ -2392,9 +2507,12 @@ p.jams-submit-holder {
 		padding-top:30px;
 	}
 
-	#press .press-list li{
+/* #press h2.section-title {
+  margin-bottom: 30px;
+} */
+	/* #press .press-list li{
 		margin-bottom:10px;
-	}
+	} */
 
 	/* ----- Jams Section Responsiveness ----- */
 	#jams h2.section-title{
@@ -2432,7 +2550,7 @@ p.jams-submit-holder {
 	}
 
 	#about .row .one-half .brainframe{
-		min-height:260px;
+		min-height:500px;
 	}
 
 	#about .row > .one-half:nth-child(2){

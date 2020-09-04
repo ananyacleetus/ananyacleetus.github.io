@@ -1,22 +1,27 @@
-.html {
-  background-color: #f9f0ff !important;
-}
-
-  * {
+* {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   color: #5d5d5d;
   letter-spacing: 1px;
-  /* background-color: #f9f0ff; */
+  /* margin: auto; */
 }
+
+html {
+  background-color: #faefff;
+}
+
 body {
-  /* background-color: #f9f0ff; */
+  background-color: #faefff;
   width: 100%;
   overflow: hidden;
 }
+div {
+  margin: auto;
+}
+
 .category {
-  padding: 20px;
-  text-align: left;
+  padding: 15px;
+  text-align: center;
 }
 #title {
   font-size: 38px;
@@ -41,22 +46,18 @@ path {
 }
 
 .container {
-  display: flex;
+  display: block;
   justify-content: center;
   width: 100%;
 }
 
-.braincontain {
-  background-color: #f9f0ff !important;
-}
-
 .svg-whole {
-  max-height: 425px;
+  /* max-height: 425px; */
 }
 
 .svg-container {
   padding: 25px;
-  width: 30%;
+  width: 35%;
   text-align: center;
   margin-top: 10px;
   margin-right: 0%;
@@ -64,9 +65,10 @@ path {
 }
 .info-container {
   max-width: 375px;
-  margin-top: 50px;
+  /* margin:auto;   */
+  /* margin-top: 50px;
   margin-bottom: 25px;
-  margin-left: 0%;
+  margin-left: 0%; */
   width: 60%;
 }
 .agreeableness,
@@ -190,42 +192,62 @@ path {
 }
 
 @media only screen and (max-width: 600px) {
-  /* .info-container {
-    max-width: 375px;
-    margin-top: 0px;
-    margin-bottom: 25px;
-    margin-left: 0%;
-    width: 30%;
-  } */
-
 
 #title {
-    font-size: 22px;
+    font-size: 24px;
     font-weight: bold;
 
   }
 #region {
-    font-size: 14px;
+    font-size: 20px;
     font-weight: 200;
-  }
+  }z
 #subRegion {
     margin-top: -50px;
-    font-size: 12px;
+    font-size: 15px;
   }
+
   .info-container {
-    margin-top: 20px;
-    margin-bottom: 25px;
-    margin-left: 0%;
+    /* margin-top: 20px;
+    margin-bottom: 15px;
+    margin-left: 0%; */
+    margin: auto
     width: 50%;
   }
 
   	.svg-container{
+    padding: 25px 25px 25px 15px;
 		margin:0 auto;
-		width:50%;
+		width:70%;
 	}
 
 	.category {
 		padding: 16px;
 	}
 
+}
+
+
+
+
+@media screen and (max-width: 450px){
+
+	.container{
+		display:block;
+	}
+
+	.info-container{
+		max-width:100%;
+		width: 100%;
+		margin:auto;
+	}
+
+	.info-container h1{
+		text-align:center;
+	}
+
+	.svg-container{
+		width:75%;
+		padding:0;
+	}
 }
