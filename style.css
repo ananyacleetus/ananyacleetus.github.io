@@ -352,6 +352,7 @@ img.my-info-signature {
     position: relative;
     margin-top: 20px;
     z-index: 2;
+    visibility: visible;
 }
 
 .icon-scroll,
@@ -1514,6 +1515,9 @@ a {
   position: -webkit-sticky;
   position: sticky;
   height: 125px;
+  /* height: 100%; */
+  /* margin-left: -60px; */
+  /* margin-right: 40px; */
   border: 1px solid #ccc !important;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) !important;
   background-color: #FDF7FF;
@@ -2622,4 +2626,76 @@ p.jams-submit-holder {
 		padding-left:40px;
 	}
 
+  .card-source a {
+    font-size: 10px;
+    color: #F37B83
+}
+
+.card-article {
+  font-size: 10px;
+  color: #2C224A !important;
+}
+
+.card {
+  top: 30px !important;
+  position: -webkit-sticky;
+  position: sticky;
+  height: 125px;
+  border: 1px solid #ccc !important;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) !important;
+  background-color: #FDF7FF;
+  color: #333;
+  padding: 10px !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  border-radius: 10px !important;
+  margin-bottom: 20px !important;
+  line-height: 10px;
+  margin-left: -60px;
+  margin-right: 10%;
+}
+
+.card h2 {
+  line-height: 10px;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+
+}
+
+
+@media screen and (min-width: 480px) {
+
+  .card-source a {
+    font-size: 18px;
+    color: #F37B83 !important;
+  }
+  
+  .card-article {
+    font-size: 16px;
+    color: #2C224A !important;
+  }
+
+
+  .card {
+    top: 30px !important;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 125px;
+    /* height: 100%; */
+    /* margin-left: -60px; */
+    /* margin-right: 40px; */
+    border: 1px solid #ccc !important;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) !important;
+    background-color: #FDF7FF;
+    color: #333;
+    padding: 10px !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+    border-radius: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .card h2 {
+    padding: 0;
+  }
 }

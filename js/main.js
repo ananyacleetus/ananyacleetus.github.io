@@ -23,6 +23,7 @@
         $('#toggle').on("click", multiClickFunctionStop);
         setMenu();
         setHash();
+
         $('.doc-loader').fadeOut();
     });
 
@@ -198,6 +199,8 @@
             subMenusSubOffsetX: 1,
             subMenusSubOffsetY: -8
         });
+
+
     }
 
     function imageSliderSetUp() {
@@ -251,10 +254,17 @@
     function multiClickFunctionStop(e) {
         e.preventDefault();
         $('#toggle').off("click");
+        $('.current-big-let').toggle();
         $('#toggle').toggleClass("on");
         $('body').toggleClass("open").delay(300).queue(function (next) {
             $(this).toggleClass("done");
             $('#toggle').on("click", multiClickFunctionStop);
+            //
+            // if ($('.current-big-let').css('visibility') == 'hidden') {
+            //   delay(600);
+            //   $('.current-big-let').toggle();
+            // }
+
             next();
         });
     }
