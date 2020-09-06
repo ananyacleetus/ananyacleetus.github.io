@@ -1525,9 +1525,9 @@ a {
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1) !important;
   background-color: #FDF7FF;
   color: #333;
-  padding: 10px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-radius: 10px !important;
   margin-bottom: 20px !important;
 }
@@ -2006,6 +2006,29 @@ p.jams-submit-holder {
 		padding-left:40px;
 	}
 
+  .card-source a {
+    font-size: 17px;
+    line-height: 15px;
+    /* color: #F37B83 */
+}
+
+.card h2 {
+
+}
+
+.card-article {
+  font-size: 15px;
+  line-height: 30px;
+  color: #2C224A !important;
+}
+
+.card {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 5px;
+
+}
 
 
 }
@@ -2159,9 +2182,31 @@ p.jams-submit-holder {
 
 
   .card {
-    margin-left: 0;
-    margin-right: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+
   }
+
+  .card h2 {
+    line-height: 12px;
+  }
+
+  /* .card a {
+    font-size: 14px;
+    line-height: 15px;
+    color: #F37B83
+} */
+
+.card-article {
+  font-size: 13px;
+  color: #2C224A !important;
+}
+
+.card-article a{
+  line-height: 14px;
+}
 
 }
 
