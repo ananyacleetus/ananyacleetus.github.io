@@ -1350,7 +1350,8 @@ p.skill-circle-text {
 #press-grid {
   height:30% !important;
   overflow: visible;
-  width: calc(100% + 20vw) !important;
+  width: calc(100% + 20vw);
+      /* COME BACK TO THIS ^^ */
 
 }
 
@@ -1385,6 +1386,7 @@ p.skill-circle-text {
 
 .press-grid-item.p-one-half {
     width: calc(100% / 2);
+    /* COME BACK TO THIS ^^ */
     height: 1800px;
 }
 
@@ -1485,7 +1487,8 @@ transition: color .3s linear;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
   max-width: 700px !important;
-  margin: 0 100px !important;
+  margin: 0 100px;
+  /* COME BACK TO THIS ^^ */
   font-family: 'Poppins', sans-serif;
 }
 
@@ -2434,6 +2437,11 @@ p.jams-submit-holder {
       height:90%;
     }
 
+    #press-grid {
+      width: 100% !important;
+
+    }
+
 }
 
 @media screen and (max-width: 575px) {
@@ -2627,12 +2635,12 @@ p.jams-submit-holder {
 	}
 
   .card-source a {
-    font-size: 10px;
+    font-size: 14px;
     color: #F37B83
 }
 
 .card-article {
-  font-size: 10px;
+  font-size: 12px;
   color: #2C224A !important;
 }
 
@@ -2649,10 +2657,17 @@ p.jams-submit-holder {
   padding-left: 20px !important;
   padding-right: 20px !important;
   border-radius: 10px !important;
-  margin-bottom: 20px !important;
-  line-height: 10px;
-  margin-left: -60px;
+  /* margin-bottom: 20px !important; */
+  line-height: 13px;
+  /* margin-left: -60px;
   margin-right: 10%;
+  width: 225px; */
+  width: 80%;
+  margin: 0 auto 20px auto !important;
+}
+
+.card-wrapper {
+  margin: 0 auto 0 auto !important;
 }
 
 .card h2 {
@@ -2661,21 +2676,38 @@ p.jams-submit-holder {
   margin-bottom: 10px;
   padding: 0;
 
+  #press-grid {
+    width: 100% !important;
+
+  }
+
+  .press-grid-item.p-one-half {
+      width: 100%
+  }
+
 }
 
 
-@media screen and (min-width: 480px) {
+@media screen and (min-width: 481px) {
 
   .card-source a {
     font-size: 18px;
     color: #F37B83 !important;
   }
-  
+
   .card-article {
     font-size: 16px;
     color: #2C224A !important;
   }
 
+  .card-wrapper {
+    /* margin-top: 100px !important; */
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    max-width: 700px !important;
+    margin: 0 100px;
+    font-family: 'Poppins', sans-serif;
+  }
 
   .card {
     top: 30px !important;
@@ -2694,8 +2726,29 @@ p.jams-submit-holder {
     padding-right: 20px !important;
     border-radius: 10px !important;
     margin-bottom: 20px !important;
+
+
   }
   .card h2 {
     padding: 0;
   }
+
+  #press-grid {
+    width: calc(100% + 20vw) !important;
+
+  }
+
+  .press-grid-item.p-one-half {
+      width: calc(100% / 2);
+  }
+}
+
+
+@media only screen and (max-width: 1600px) and (min-width: 1550px)  {
+/* 
+  .card {
+    margin-left: -80px !important;
+    margin-right: 80px !important;
+  } */
+
 }
