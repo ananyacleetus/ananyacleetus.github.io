@@ -1859,7 +1859,11 @@ p.jams-submit-holder {
 		margin-bottom:50px;
 		line-height:1.8;
 	}
-
+/*
+  .card {
+    margin-left: -80px;
+    margin-right: 80px;
+  } */
 
 }
 
@@ -1874,6 +1878,11 @@ p.jams-submit-holder {
     .button-group-wrapper > a:last-of-type {
         margin-bottom: 0;
     }
+
+    /* .card {
+      margin-left: 0;
+      margin-right: 0;
+    } */
 
 }
 
@@ -1899,6 +1908,7 @@ p.jams-submit-holder {
 		padding-left:.5em;
 		line-height:10%;
 	}
+
 
 }
 
@@ -1954,6 +1964,12 @@ p.jams-submit-holder {
     }
 
 
+      .card {
+        margin-left: -80px;
+        margin-right: 80px;
+      }
+
+
 }
 
 @media screen and (max-width: 1300px) {
@@ -1991,6 +2007,7 @@ p.jams-submit-holder {
 	}
 
 
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -2004,6 +2021,12 @@ p.jams-submit-holder {
     margin-bottom: 0;
     margin-top: 10px;
   }
+
+  /* .card {
+    margin-left: 80px;
+    margin-right: 80px;
+  } */
+
 
 }
 
@@ -2132,6 +2155,13 @@ p.jams-submit-holder {
   .personal-link-1 {
     font-size: 19px;
 }
+
+
+
+  .card {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
 }
 
@@ -2662,7 +2692,7 @@ p.jams-submit-holder {
   /* margin-left: -60px;
   margin-right: 10%;
   width: 225px; */
-  width: 80%;
+  width: 90%;
   margin: 0 auto 20px auto !important;
 }
 
@@ -2745,7 +2775,7 @@ p.jams-submit-holder {
 
 
 @media only screen and (max-width: 1600px) and (min-width: 1550px)  {
-/* 
+/*
   .card {
     margin-left: -80px !important;
     margin-right: 80px !important;
