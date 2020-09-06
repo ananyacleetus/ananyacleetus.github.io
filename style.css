@@ -46,7 +46,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
-    line-height: 30px;
+    line-height: 15px;
     font-weight: 400;
     color: #a88590;
     background-color: #fff;
@@ -104,6 +104,7 @@ body img {
 
 p {
     margin-bottom: 30px;
+    line-height: 30px;
 }
 
 .content-1300 {
@@ -308,6 +309,7 @@ a.button:hover {
 
 .my-info {
     margin-bottom: 30px;
+    line-height: 30px;
 }
 
 .my-info > p {
@@ -606,6 +608,7 @@ h1.entry-title {
 .site-info {
     margin-top: 25px;
     font-size: 18px;
+    line-height: 30px;
 }
 
 .social-links {
@@ -615,6 +618,7 @@ h1.entry-title {
 
 .social-links a {
     font-size: 18px;
+    line-height: 30px;
     /* font-weight: bold; */
     color: #ffffff;
     letter-spacing: 5px;
@@ -675,6 +679,7 @@ h1.entry-title {
 
 .personal-bio {
   font-size: 18px;
+  line-height: 30px;
 }
 
 .personal-link-1 {
@@ -1514,6 +1519,8 @@ a {
 .card-source a {
   font-size: 18px;
   color: #F37B83 !important;
+  line-height: 30px;
+
 }
 
 .card:hover a, .card:hover h2{
@@ -1523,6 +1530,8 @@ a {
 .card-article {
   font-size: 16px;
   color: #2C224A !important;
+  line-height: 30px;
+
 }
 
 
@@ -2026,25 +2035,25 @@ p.jams-submit-holder {
 	}
 
   .card-source a {
-    font-size: 17px;
-    line-height: 15px;
+    font-size: 16px;
+    line-height: 18px;
     /* color: #F37B83 */
 }
 
 .card h2 {
-
+  line-height: 18px
 }
 
 .card-article {
   font-size: 15px;
-  line-height: 30px;
+  line-height: 24px;
   color: #2C224A !important;
 }
 
 .card {
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: 0px;
+  padding-top: 10px;
   padding-bottom: 5px;
 
 }
@@ -2208,23 +2217,21 @@ p.jams-submit-holder {
 
   }
 
-  .card h2 {
-    line-height: 12px;
+  .card-source a {
+    line-height: 18px;
+    font-size: 16px;
   }
 
-  /* .card a {
+  .card h2 {
     font-size: 14px;
-    line-height: 15px;
+    line-height: 12px;
     color: #F37B83
-} */
+}
 
 .card-article {
   font-size: 13px;
   color: #2C224A !important;
-}
-
-.card-article a{
-  line-height: 14px;
+  line-height: 21px;
 }
 
 }
