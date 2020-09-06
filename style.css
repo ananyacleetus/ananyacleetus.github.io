@@ -530,12 +530,16 @@ img.my-info-signature {
 
 .content-right-wrapper > div:last-of-type {
     padding-bottom: 75px;
+    /* padding-bottom: 55px; */
+    /* revisit */
 }
 
 .section {
     background-color: #f9f0ff;
     position: relative;
     padding-top: 75px;
+    /* padding-top: 55px; */
+    /* revisit */
 }
 
 .section-wrapper {
@@ -1498,6 +1502,15 @@ a {
 
 }
 
+.card-secret {
+  visibility: hidden;
+}
+
+
+.card-nonsecret {
+  visibility: visible;
+}
+
 .card-source a {
   font-size: 18px;
   color: #F37B83 !important;
@@ -1824,10 +1837,16 @@ p.jams-submit-holder {
 
     .section {
         padding-top: 75px;
+        /* padding-top: 55px; */
+        /* revisit */
+
     }
 
     .content-right-wrapper > div:last-of-type {
         padding-bottom: 75px;
+        /* padding-bottom: 55px; */
+        /* revisit */
+
     }
 
     .top-pagination,
@@ -2264,6 +2283,9 @@ p.jams-submit-holder {
     .full-width-section .section-wrapper {
         height: auto;
         padding: 75px 5%;
+        /* padding: 55px 5%; */
+        /* revisit */
+
     }
 
     .content-right-wrapper > div:first-of-type .section-wrapper {
@@ -2709,6 +2731,14 @@ p.jams-submit-holder {
 		padding-left:40px;
 	}
 
+  .card-secret {
+    visibility: visible;
+  }
+
+  .card-nonsecret {
+    visibility: hidden;
+  }
+
   .card-source a {
     font-size: 18px;
     line-height: 20px;
@@ -2766,6 +2796,14 @@ p.jams-submit-holder {
 
 
 @media screen and (min-width: 481px) {
+
+  .card-secret {
+    visibility: hidden;
+  }
+
+  .card-nonsecret {
+    visibility: visible;
+  }
 
   .card-source a {
     font-size: 18px;
