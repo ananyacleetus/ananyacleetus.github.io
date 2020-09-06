@@ -2665,12 +2665,14 @@ p.jams-submit-holder {
 	}
 
   .card-source a {
-    font-size: 14px;
+    font-size: 18px;
+    line-height: 20px;
     color: #F37B83
 }
 
 .card-article {
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 18px;
   color: #2C224A !important;
 }
 
@@ -2684,8 +2686,8 @@ p.jams-submit-holder {
   background-color: #FDF7FF;
   color: #333;
   padding: 10px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  /* padding-left: 20px !important; */
+  /* padding-right: 20px !important; */
   border-radius: 10px !important;
   /* margin-bottom: 20px !important; */
   line-height: 13px;
