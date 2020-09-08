@@ -870,10 +870,10 @@ h1.entry-title {
   padding-top: 8px;
 }
 
-.projects .section-info a{
+/* .projects .section-info a{
   color: #F37B83;
   font-weight: bold;
-}
+} */
 
 .new-two-third {
   width: calc(200% / 3);
@@ -1007,7 +1007,31 @@ h1.entry-title {
     opacity: 1;
 }
 
+.project-sm-link {
+  color: #9f86c0;
+}
 
+.project-sm-link:hover {
+  color: #2C224A;
+}
+
+.project-link {
+  font-size: 19px;
+  color: #F37B83;
+  font-weight: bold;
+
+}
+
+.project-link:hover {
+  color: #2C224A;
+}
+
+.project-nolink {
+  font-size: 19px;
+  color: #F37B83;
+  font-weight: bold;
+
+}
 /* ===================================
     7.1 Pretty Photo CSS
 ====================================== */
@@ -1251,14 +1275,15 @@ img.my-signature {
 }
 
 .award-source {
+  font-size: 19px;
+  color: #F37B83;
   font-weight: bold;
-  color: #f37b83;
-  font-size: 18px;
-  /* color: #a88590;  */
 }
 
+
+
 .award-source:hover {
-  color: #f37b83;
+  color: #2C224A;
 }
 /* ===================================
     9. Press Section CSS
