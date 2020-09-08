@@ -1508,12 +1508,14 @@ a {
 }
 
 .card-secret {
-  visibility: hidden;
+  /* visibility: hidden; */
+  display: none;
 }
 
 
 .card-nonsecret {
-  visibility: visible;
+  /* visibility: visible; */
+  display: block;
 }
 
 .card-source a {
@@ -2739,11 +2741,13 @@ p.jams-submit-holder {
 	}
 
   .card-secret {
-    visibility: visible;
+    /* visibility: visible; */
+    display: block;
   }
 
   .card-nonsecret {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
 
   .card-source a {
@@ -2805,11 +2809,13 @@ p.jams-submit-holder {
 @media screen and (min-width: 481px) {
 
   .card-secret {
-    visibility: hidden;
+    /* visibility: hidden; */
+    display: none;
   }
 
   .card-nonsecret {
-    visibility: visible;
+    /* visibility: visible; */
+    display: block;
   }
 
   .card-source a {
