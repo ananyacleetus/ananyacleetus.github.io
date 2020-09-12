@@ -1859,6 +1859,18 @@ p.jams-submit-holder {
 	display:flex;
 }
 
+.konami {
+  color: red;
+  font-weight: bold;
+  font-size: 15px;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
+}
+/*
+.konami-2 {
+  color: black;
+  font-weight: bold;
+} */
 
 
 /* ===================================
@@ -1955,6 +1967,10 @@ p.jams-submit-holder {
     margin-left: -80px;
     margin-right: 80px;
   } */
+
+  .konami {
+    display: none;
+  }
 
 }
 
