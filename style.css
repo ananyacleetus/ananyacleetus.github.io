@@ -1543,6 +1543,10 @@ a {
   display: block;
 }
 
+.card-source {
+    /* display: inline; */
+}
+
 .card-source a {
   font-size: 18px;
   color: #F37B83 !important;
@@ -1640,6 +1644,34 @@ a {
   top: 260px;
 }
 
+.magazine {
+  height: 450px;
+  width: auto;
+  margin: auto;
+    /* float: left; */
+}
+
+.magazine-wrapper {
+  text-align: center;
+    /* float: left; */
+/* display: inline-block; */
+  /*margin: auto; */
+}
+
+.featured-star {
+  /* float: left; */
+  /* display: inline-block; */
+}
+
+.fa-star {
+  float: left;
+  display: inline;
+  margin-top: 10px;
+  padding-right: 5px;
+  font-size: 20px !important;
+  color: #DAA520 !important;
+}
+
 /* ===================================
     Old Fourths Layout
 ====================================== */
@@ -1662,6 +1694,10 @@ a {
   margin-bottom: -30px;
   color: #2C224A;
   font-weight: bold;
+  padding-bottom: 60px;
+  /* float: left; */
+
+
 }
 
 .videobox iframe,
@@ -2086,6 +2122,12 @@ p.jams-submit-holder {
 }
 
 
+.fa-star {
+  margin-top: 5px;
+  height: 10px;
+}
+
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -2261,12 +2303,22 @@ p.jams-submit-holder {
   line-height: 21px;
 }
 
+.fa-star {
+  margin-top: -5px;
+  height: 10px;
+}
+
 }
 
 @media screen and (max-height: 880px) {
 
     .big-let {
         display: none;
+    }
+
+    .fa-star {
+      margin-top: 0px
+      height: 30px;
     }
 }
 
