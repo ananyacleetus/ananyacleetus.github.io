@@ -95,3 +95,23 @@ a {
 .card:nth-child(8n) {
   top: 160px;
 }
+
+/* .card:nth-child(9n) {
+  top: 180px;
+}
+
+.card:nth-child(10n) {
+  top: 200px;
+}
+
+.card:nth-child(11n) {
+  top: 220px;
+}
+
+.card:nth-child(12n) {
+  top: 240px;
+}
+
+.card:nth-child(13n) {
+  top: 260px;
+} */
